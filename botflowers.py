@@ -33,7 +33,7 @@ start_message = (
 )
 
 # Кнопки
-button1 = InlineKeyboardButton(text="🌹Заказать букет🌹", url="https://t.me/+9uWpi78dXfUwNDAy")
+button1 = InlineKeyboardButton(text="🌹Заказать букет🌹", url="https://t.me/+78xch3ENN_BlNTIy")
 button2 = InlineKeyboardButton(text="🌸Наш сайт с отзывами🌸", url="http://uflor.site")
 keyboard = InlineKeyboardMarkup(inline_keyboard=[[button1], [button2]])
 
