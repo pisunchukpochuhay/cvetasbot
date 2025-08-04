@@ -29,11 +29,11 @@ start_message = (
     "💐 Забота о каждом клиенте\n"
     "💐 Широкий ассортимент\n\n"
     "Для заказа букета переходите по ссылке 🥰\n"
-    "https://t.me/+78xch3ENN_BlNTIy\n\n"
+    "https://t.me/+HjVzO2miBNNjNWRi\n\n"
 )
 
 # Кнопки
-button1 = InlineKeyboardButton(text="🌹Заказать букет🌹", url="https://t.me/+78xch3ENN_BlNTIy")
+button1 = InlineKeyboardButton(text="🌹Заказать букет🌹", url="https://t.me/+HjVzO2miBNNjNWRi")
 button2 = InlineKeyboardButton(text="🌸Наш сайт с отзывами🌸", url="http://uflor.site")
 keyboard = InlineKeyboardMarkup(inline_keyboard=[[button1], [button2]])
 
