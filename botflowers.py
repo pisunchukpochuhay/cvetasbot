@@ -17,7 +17,7 @@ logger = logging.getLogger(__name__)
 
 # Сообщение, которое будет отправляться при нажатии кнопки /start
 start_message = (
-    "Добро пожаловать в \"24Uflowers Delivery\"\n"
+    "Добро пожаловать в \"YOUR МИР ЦВЕТОВ\"\n"
     "Премиальная доставка свежих букетов\n\n"
     "Почему именно мы?\n"
     "🌵 10 лет на рынке\n"
@@ -34,7 +34,7 @@ start_message = (
 
 # Кнопки
 button1 = InlineKeyboardButton(text="🌹Заказать букет🌹", url="https://t.me/+RmYNJtmTvJVhNGNi")
-button2 = InlineKeyboardButton(text="🌸Наш сайт с отзывами🌸", url="https://24uflowersdelivery.site")
+button2 = InlineKeyboardButton(text="🌸Наш сайт с отзывами🌸", url="https://mircvetov24.ru")
 keyboard = InlineKeyboardMarkup(inline_keyboard=[[button1], [button2]])
 
 # Функция для обработки команды /start
